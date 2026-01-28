@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AndroidBinding/AndroidBinding.csproj" />
+  <Project Path="MsgPush.Maui\MsgPush.Maui.csproj" />
+</Solution>

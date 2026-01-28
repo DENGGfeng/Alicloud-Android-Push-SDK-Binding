@@ -1,0 +1,68 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsTrimmable>true</IsTrimmable>
+  </PropertyGroup>
+  
+<!--  <ItemGroup>-->
+<!--    <AndroidLibrary Update="accs_sdk_taobao-4.9.1-emas.aar" Bind="false" />-->
+<!--    <AndroidLibrary Update="alicloud-android-agoo-4.9.1-emas.aar" Bind="false" />-->
+<!--    <AndroidLibrary Update="alicloud-android-crashdefend-0.0.6.jar" Bind="false" />-->
+<!--    <AndroidLibrary Update="alicloud-android-error-1.1.0.aar" Bind="false" />-->
+<!--    <AndroidLibrary Update="alicloud-android-logger-1.2.0.aar" Bind="false" />-->
+<!--    <AndroidLibrary Update="alicloud-android-tool-1.1.0.aar" Bind="false" />-->
+<!--    <AndroidLibrary Update="alicloud-android-utdid-2.6.0.jar" Bind="false" />-->
+<!--    <AndroidLibrary Update="networksdk-3.6.0-open.jar" Bind="false" />-->
+<!--    <AndroidLibrary Update="tnet4android-3.1.14.10-open-emas1.aar" Bind="false" />-->
+<!--  </ItemGroup>-->
+  
+  <ItemGroup>
+    <AndroidMavenLibrary
+            Include="com.aliyun.ams:alicloud-android-push"
+            Version="3.10.1"
+            Repository="https://maven.aliyun.com/nexus/content/repositories/releases/" />
+    <AndroidMavenLibrary
+            Include="com.aliyun.ams:alicloud-android-agoo"
+            Version="4.9.1-emas"
+            Repository="https://maven.aliyun.com/nexus/content/repositories/releases/"
+            Bind="true" />
+    <AndroidMavenLibrary
+            Include="com.aliyun.ams:alicloud-android-utdid"
+            Version="2.6.0"
+            Repository="https://maven.aliyun.com/nexus/content/repositories/releases/"
+            Bind="false" />
+    <AndroidMavenLibrary
+            Include="com.aliyun.ams:alicloud-android-crashdefend"
+            Version="0.0.6"
+            Repository="https://maven.aliyun.com/nexus/content/repositories/releases/"
+            Bind="false" />
+    <AndroidMavenLibrary
+            Include="com.taobao.android:accs_sdk_taobao"
+            Version="4.9.1-emas"
+            Repository="https://maven.aliyun.com/nexus/content/repositories/releases/"
+            Bind="true" />
+    <AndroidMavenLibrary
+            Include="com.taobao.android:networksdk"
+            Version="3.6.0-open"
+            Repository="https://maven.aliyun.com/nexus/content/repositories/releases/"
+            Bind="false" />
+    <AndroidMavenLibrary
+            Include="com.taobao.android:tnet4android"
+            Version="3.1.14.10-open-emas1"
+            Repository="https://maven.aliyun.com/nexus/content/repositories/releases/"
+            Bind="false" />
+    <AndroidMavenLibrary
+            Include="com.aliyun.ams:alicloud-android-error"
+            Version="1.1.0"
+            Repository="https://maven.aliyun.com/nexus/content/repositories/releases/"
+            Bind="false" />
+    <AndroidMavenLibrary
+            Include="com.aliyun.ams:alicloud-android-logger"
+            Version="1.2.0"
+            Repository="https://maven.aliyun.com/nexus/content/repositories/releases/"
+            Bind="false" />
+  </ItemGroup>
+</Project>

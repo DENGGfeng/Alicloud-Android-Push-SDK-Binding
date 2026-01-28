@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <!-- 添加对AgooMessageReceiver类的支持 -->
+  <attr path="/api/package[@name='com.aliyun.ams.emas.push']/class[@name='AgooMessageReceiver']" name="managedName">AgooMessageReceiver</attr>
+  
+  <!-- 将TaobaoBaseIntentService的OnError方法标记为virtual而非abstract，以便可以重写 -->
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onError']" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onError']" name="final">false</attr>
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onError']" name="managedReturn">void</attr>
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onError']" name="visibility">protected</attr>
+  
+  <!-- 将TaobaoBaseIntentService的OnMessage方法标记为virtual而非abstract -->
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onMessage']" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onMessage']" name="final">false</attr>
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onMessage']" name="managedReturn">void</attr>
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onMessage']" name="visibility">protected</attr>
+  
+  <!-- 将TaobaoBaseIntentService的OnRegistered方法标记为virtual而非abstract -->
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onRegistered']" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onRegistered']" name="final">false</attr>
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onRegistered']" name="managedReturn">void</attr>
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='TaobaoBaseIntentService']/method[@name='onRegistered']" name="visibility">protected</attr>
+  
+  <!-- 将AgooInnerService的OnMessage方法标记为virtual而非abstract -->
+  <attr path="/api/package[@name='com.aliyun.ams.emas.push']/class[@name='AgooInnerService']/method[@name='onMessage']" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.aliyun.ams.emas.push']/class[@name='AgooInnerService']/method[@name='onMessage']" name="final">false</attr>
+  <attr path="/api/package[@name='com.aliyun.ams.emas.push']/class[@name='AgooInnerService']/method[@name='onMessage']" name="managedReturn">void</attr>
+  <attr path="/api/package[@name='com.aliyun.ams.emas.push']/class[@name='AgooInnerService']/method[@name='onMessage']" name="visibility">protected</attr>
+  
+  <!-- 将AgooInnerService的OnRegistered方法标记为virtual而非abstract -->
+  <attr path="/api/package[@name='com.aliyun.ams.emas.push']/class[@name='AgooInnerService']/method[@name='onRegistered']" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.aliyun.ams.emas.push']/class[@name='AgooInnerService']/method[@name='onRegistered']" name="final">false</attr>
+  <attr path="/api/package[@name='com.aliyun.ams.emas.push']/class[@name='AgooInnerService']/method[@name='onRegistered']" name="managedReturn">void</attr>
+  <attr path="/api/package[@name='com.aliyun.ams.emas.push']/class[@name='AgooInnerService']/method[@name='onRegistered']" name="visibility">protected</attr>
+  
+  <!-- 将AgooInnerService的OnError方法标记为virtual而非abstract -->
+  <attr path="/api/package[@name='com.aliyun.ams.emas.push']/class[@name='AgooInnerService']/method[@name='onError']" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.aliyun.ams.emas.push']/class[@name='AgooInnerService']/method[@name='onError']" name="final">false</attr>
+  <attr path="/api/package[@name='com.aliyun.ams.emas.push']/class[@name='AgooInnerService']/method[@name='onError']" name="managedReturn">void</attr>
+  <attr path="/api/package[@name='com.aliyun.ams.emas.push']/class[@name='AgooInnerService']/method[@name='onError']" name="visibility">protected</attr>
+  
+  <!-- 将RegisterDelegate的OnFailure方法标记为virtual而非abstract -->
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='IRegister']/method[@name='onFailure']" name="abstract">false</attr>
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='IRegister']/method[@name='onFailure']" name="final">false</attr>
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='IRegister']/method[@name='onFailure']" name="managedReturn">void</attr>
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='IRegister']/method[@name='onFailure']" name="visibility">public</attr>
+</metadata>
